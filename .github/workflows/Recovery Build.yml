@@ -6,15 +6,15 @@ on:
       SYNC_URL:
         description: 'SYNC_URL'
         required: true
-        default: 'https://gitlab.com/OrangeFox/sync.git'
+        default: https://gitlab.com/OrangeFox/sync.git
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
         default: '12.1'
       DEVICE_TREE_URL:
-        description: 'DEVICE_TREE_URL'
+        description: https://github.com/dgm683/a146b-a14x-TWRP-11-dt
         required: true
-        default: 'https://github.com/christydeveloper/android_device_samsung_a15'
+        default: https://github.com/dgm683/a146b-a14x-TWRP-11-dt
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/samsung/a15'
+        default: 'device/samsung/a14'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'a15'
+        default: 'a14'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_a15'
+        default: 'twrp_a14'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
